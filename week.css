@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    display: inline;
+}
+h3{
+  padding-bottom: 20px;
+}
+.hr{
+  margin-bottom: 40px;
+}
+.h3{
+  color: #fff;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff657c, #ef8172);
+    background-size: 180% 180%;
+    height: 125vh;
+    animation: gradient-animation 10s ease infinite;
+  } 
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+   25% {
+ background-position: 100% 25%;
+  }
+  50% {
+    background-position: 75% 50%;
+  }
+  75% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.gradient-background{
+    padding-top: 46px;
+
+    text-align: center;
+}
+.title{
+    color: #fff;
+    margin-bottom: 40px;
+}
+.p{
+  font-size: 20px;
+  display: inline;
+  padding: 20px;
+  font-weight: bold;
+}
+.div{
+  background-color:rgba(73, 29, 29, 0.308);
+  padding: 20px;
+ margin-bottom: 30px;
+ margin-left: auto ;
+ margin-right: auto ;
+ width: 400px;
+ border-radius: 20px;
+}
